@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CHEETAH Learn — Offline</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #0C2340;
+      font-family: 'Nunito', sans-serif;
+      color: white;
+      text-align: center;
+      padding: 32px;
+    }
+    .logo {
+      width: 96px;
+      height: 96px;
+      border-radius: 24px;
+      background: #F5820A;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 24px;
+      overflow: hidden;
+    }
+    .logo img { width: 80px; height: 80px; object-fit: contain; }
+    h1 { font-size: 28px; font-weight: 900; margin-bottom: 8px; }
+    p { font-size: 14px; color: rgba(255,255,255,0.6); max-width: 280px; line-height: 1.6; margin-bottom: 28px; }
+    button {
+      background: #F5820A;
+      color: white;
+      border: none;
+      padding: 14px 28px;
+      border-radius: 99px;
+      font-size: 15px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="/cheetah-logo.png" alt="CHEETAH">
+  </div>
+  <h1>You're Offline</h1>
+  <p>No internet connection right now. Please check your connection and try again.</p>
+  <button onclick="window.location.reload()">Try Again</button>
+</body>
+</html>

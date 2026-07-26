@@ -1,0 +1,27 @@
+{
+  "name": "CHEETAH Learn",
+  "short_name": "CHEETAH",
+  "description": "Adaptive literacy platform for children by CHEETAH Toys & More",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0C2340",
+  "theme_color": "#F5820A",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/cheetah-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/cheetah-logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "kids"],
+  "lang": "en",
+  "scope": "/"
+}
