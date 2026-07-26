@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=DM+Sans:wght@300;400;500;600&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --orange: #F5820A;
+  --orange-light: #FF9F2F;
+  --navy: #0C2340;
+  --blue: #1A5DB5;
+  --teal: #0891B2;
+  --green: #16A34A;
+  --yellow: #F59E0B;
+  --bg: #FFF9F4;
+  --text: #1A1208;
+  --muted: #5A5240;
+  --border: #EDE0D0;
+  --card: #FFFFFF;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.15;
+}
